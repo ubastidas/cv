@@ -8,8 +8,9 @@
         };        
         var careerSumaryDetail = {
             en: "Computer Engineer with 17 years of experience in management, project management, database analysis, \n\
-                development and maintenance of web systems. Latest positions: Director of Processing and Data Analysis of the National Electoral Registry Office (ONRE) \n\
-                of the National Electoral Council (CNE). Technical Leader ONRE-CNE. <strong>Availability to work freelance.</strong>",
+                development and maintenance of web systems. Latest positions: Director of Processing and Data Analysis at \n\
+                Oficina Nacional de Registro Electoral (ONRE) an office of Consejo Nacional Electoral (CNE). \n\
+                Technical Leader ONRE-CNE. <strong>Availability to work freelance.</strong>",
             es: "Ingeniero en Informática con 17 años de experiencia en dirección, gestión de proyectos, análisis de bases de datos, \n\
                 desarrollo y mantenimiento de sistemas web. Últimos cargos: Director de Procesamiento y Análsis de Datos de la Oficina Nacional de Registro Electoral (ONRE)\n\
                 del Consejo Nacional Electoral (CNE). Líder Técnico ONRE-CNE. <strong>Disponibilidad para trabajar freelance.</strong>"
@@ -41,10 +42,9 @@
         }
         
         var workExperience1Detail = {
-            en : "<p>In charge of the information systems area. Management of work teams in the design area \n\
-                 and development of web information systems for the National Electoral Registry Office of the National Electoral Council.</p>",
+            en: "<p>In charge of the information systems area. Work team management and web information system development.</p>",
             es: "<p>Encargado del área de sistemas de información. Manejo de equipos de trabajo en el área de diseño y \n\
-                desarrollo de sistemas de información web para la Oficina Nacional de Registro Electoral del Consejo Nacional Electoral.</p>"
+                desarrollo de sistemas de información web.</p>"
             }
                 
         var workExperience2Detail ={
