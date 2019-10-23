@@ -1,6 +1,6 @@
         var profession = {
-            en: "Database Analyst - Web Developer",
-            es: "Analista de BD - Desarrollador Web"
+            en: "Web Developer - Database Analyst",
+            es: "Desarrollador Web - Analista de BD"
         };
         var careerSumary = {
             en: "Career Sumary",
