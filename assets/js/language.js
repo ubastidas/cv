@@ -3,16 +3,14 @@
             es: "Desarrollador Web - Analista de BD"
         };
         var careerSumary = {
-            en: "Career Sumary",
+            en: "Career Summary",
             es: "Perfil Profesional"
         };        
         var careerSumaryDetail = {
-            en: "Computer Engineer with 17 years of experience in management, project management, database analysis, \n\
-                development and maintenance of web systems. Latest positions: Director of Processing and Data Analysis at \n\
+            en: "Computer Engineer with experience in development and maintenance of web systems, management, project management, database analysis. Latest positions: Senior Web Application Developer at Dennari, Director of Processing and Data Analysis at \n\
                 Oficina Nacional de Registro Electoral (ONRE) an office of Consejo Nacional Electoral (CNE). \n\
                 Technical Leader ONRE-CNE. <strong>Availability to work freelance.</strong>",
-            es: "Ingeniero en Informática con 17 años de experiencia en dirección, gestión de proyectos, análisis de bases de datos, \n\
-                desarrollo y mantenimiento de sistemas web. Últimos cargos: Director de Procesamiento y Análsis de Datos de la Oficina Nacional de Registro Electoral (ONRE)\n\
+            es: "Ingeniero en Informática con experiencia en desarrollo y mantenimiento de sistemas web, dirección, gestión de proyectos, análisis de bases de datos. Últimos cargos: Desarrollador Senior de Aplicaciones Web en Dennari, Director de Procesamiento y Análsis de Datos de la Oficina Nacional de Registro Electoral (ONRE)\n\
                 del Consejo Nacional Electoral (CNE). Líder Técnico ONRE-CNE. <strong>Disponibilidad para trabajar freelance.</strong>"
         }
         
@@ -26,28 +24,43 @@
             es: "2017 - Presente"
         }
         
+        var workExperience1Title = {
+            en: "Director",
+            es: "Director"
+        }
+
         var workExperience2Title = {
+            en: "Senior Web Application Developer",
+            es: "Desarrollador de Aplicaciones Web Senior"
+        }
+
+        var workExperience3Title = {
             en: "Database Analyst / Web Developer",
             es: "Analista BD / Desarrollador Web"
         }
         
-        var workExperience3Title = {
+        var workExperience4Title = {
             en: "Web Developer Junior",
             es: "Desarrollador Web Junior"
         }
         
-        var workExperience4Title = {
+        /*var workExperience4Title = {
             en: "Application Developer Lotus Notes",
             es: "Desarrollador de Aplicaciones Lotus Notes"
-        }
+        }*/
         
         var workExperience1Detail = {
             en: "<p>In charge of the information systems area. Work team management and web information system development.</p>",
             es: "<p>Encargado del área de sistemas de información. Manejo de equipos de trabajo en el área de diseño y \n\
                 desarrollo de sistemas de información web.</p>"
-            }
+        }
+
+        var workExperience2Detail = {
+            en: "<p>Web developer analyst. Analysis, design, development and maintenance of web systems.</p>",
+            es: "<p>Analista programador web. Análisis, diseño, desarrollo y mantenimiento de sistemas web.</p>"
+        }
                 
-        var workExperience2Detail ={
+        var workExperience3Detail ={
             en: "<p>Database analyst with project leader functions. Management of work teams, data modeling, \n\
                 development of views and functions (Stored Procedures) for the web systems development team.</p>\n\
                 <p>Web developer analyst. Analysis, design, development and maintenance of web systems.</p>",
@@ -56,17 +69,17 @@
                 <p>Analista programador web. Análisis, diseño, desarrollo y mantenimiento de sistemas web.</p>"        
         }
         
-        var workExperience3Detail = {
+        var workExperience4Detail = {
             en: "<p>Analyst web developer. Part of the web systems development team.</>",
             es: "<p>Analista programador web. Parte del equipo de desarrollo de sistemas web.</p>"
         }
         
-        var workExperience4Detail = {
+        /*var workExperience4Detail = {
             en: "<p>Analyst developer Lotus Notes R5 / R6. In charge of analysis and development of systems based on documentary data base, \n\
                 workflow and email management.</p>",
             es: "<p>Analista programador Lotus Notes R5/R6. Encargado de análisis y desarrollo de sistemas basados en base de datos documentales, \n\
                 workflow y gestión de correos electrónicos.</p>"
-        }
+        }*/
         
                 
         var technologiesUsed = {
@@ -129,6 +142,7 @@
            $("#careerSumaryDetail").html(careerSumaryDetail[_lang]);
            $("#workExperience").html(workExperience[_lang]);
            $("#presentDate").html(presentDate[_lang]);
+           $("#workExperience1Title").html(workExperience1Title[_lang]);
            $("#workExperience2Title").html(workExperience2Title[_lang]);
            $("#workExperience3Title").html(workExperience3Title[_lang]);
            $("#workExperience4Title").html(workExperience4Title[_lang]);
