@@ -93,8 +93,8 @@
         }
         
         var databases = {
-            en: "Databases",
-            es: "Bases de Datos"
+            en: "DATABASES",
+            es: "BASES DE DATOS"
         }
         
         var education = {
