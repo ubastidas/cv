@@ -30,8 +30,8 @@
         }
 
         var workExperience2Title = {
-            en: "Senior Web Application Developer",
-            es: "Desarrollador de Aplicaciones Web Senior"
+            en: "Web Application Developer",
+            es: "Desarrollador de Aplicaciones Web"
         }
 
         var workExperience3Title = {
@@ -40,8 +40,8 @@
         }
         
         var workExperience4Title = {
-            en: "Web Developer Junior",
-            es: "Desarrollador Web Junior"
+            en: "Web Developer",
+            es: "Desarrollador Web"
         }
         
         /*var workExperience4Title = {
