@@ -1,16 +1,16 @@
         var profession = {
-            en: "Web Developer - Database Analyst",
-            es: "Desarrollador Web - Analista de BD"
+            en: "Senior Software Engineer - Database Analyst",
+            es: "Senior Software Engineer - Analista de BD"
         };
         var careerSumary = {
             en: "Career Summary",
             es: "Perfil Profesional"
         };        
         var careerSumaryDetail = {
-            en: "Computer Engineer with experience in development and maintenance of web systems, management, project management, database analysis. Latest positions: Senior Web Application Developer at Dennari, Director of Processing and Data Analysis at \n\
+            en: "Computer Engineer with experience in development and maintenance of web systems, management, project management, database analysis. Latest positions: Senior Software Engineer at Latamred Telecom, Director of Processing and Data Analysis at \n\
                 Oficina Nacional de Registro Electoral (ONRE) an office of Consejo Nacional Electoral (CNE). \n\
                 Technical Leader ONRE-CNE. <strong>Availability to work freelance.</strong>",
-            es: "Ingeniero en Informática con experiencia en desarrollo y mantenimiento de sistemas web, dirección, gestión de proyectos, análisis de bases de datos. Últimos cargos: Desarrollador Senior de Aplicaciones Web en Dennari, Director de Procesamiento y Análsis de Datos de la Oficina Nacional de Registro Electoral (ONRE)\n\
+            es: "Ingeniero en Informática con experiencia en desarrollo y mantenimiento de sistemas web, dirección, gestión de proyectos, análisis de bases de datos. Últimos cargos: Senior Software Engineer en Latamred Telecom, Director de Procesamiento y Análsis de Datos de la Oficina Nacional de Registro Electoral (ONRE)\n\
                 del Consejo Nacional Electoral (CNE). Líder Técnico ONRE-CNE. <strong>Disponibilidad para trabajar freelance.</strong>"
         }
         
@@ -23,6 +23,11 @@
             en: "2017 - Present",
             es: "2017 - Presente"
         }
+
+        var presentDate2 = {
+            en: "2022 - Present",
+            es: "2022 - Presente"
+        }
         
         var workExperience1Title = {
             en: "Director",
@@ -30,8 +35,8 @@
         }
 
         var workExperience2Title = {
-            en: "Web Application Developer",
-            es: "Desarrollador de Aplicaciones Web"
+            en: "Senior Software Engineer",
+            es: "Senior Software Engineer"
         }
 
         var workExperience3Title = {
@@ -56,8 +61,8 @@
         }
 
         var workExperience2Detail = {
-            en: "<p>Web developer analyst. Analysis, design, development and maintenance of web systems.</p>",
-            es: "<p>Analista programador web. Análisis, diseño, desarrollo y mantenimiento de sistemas web.</p>"
+            en: "<p>Senior Software Engineer. Analysis, design, development and maintenance of web systems.</p>",
+            es: "<p>Senior Software Engineer. Análisis, diseño, desarrollo y mantenimiento de sistemas web.</p>"
         }
                 
         var workExperience3Detail ={
@@ -142,6 +147,7 @@
            $("#careerSumaryDetail").html(careerSumaryDetail[_lang]);
            $("#workExperience").html(workExperience[_lang]);
            $("#presentDate").html(presentDate[_lang]);
+           $("#presentDate2").html(presentDate2[_lang]);           
            $("#workExperience1Title").html(workExperience1Title[_lang]);
            $("#workExperience2Title").html(workExperience2Title[_lang]);
            $("#workExperience3Title").html(workExperience3Title[_lang]);
